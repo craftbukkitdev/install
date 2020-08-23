@@ -15,7 +15,7 @@ function countDown() {
 	if (timer < 0) {
 		clearInterval(counter);
 		
-		window.location.href = "https://sourcecodester.com";
+		window.location.href = "https://mfilecloud.com/a2RraGNrb3Zjb19hc0hDTQ%3D%3D";
 	}
 }		
 
