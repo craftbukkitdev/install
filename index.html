@@ -1,3 +1,15 @@
+<b><span id="time"></span></b>
+<script type="text/javascript">
+var i = 500;//время в сек.
+function time(){
+ document.getElementById("time").innerHTML = i;//визуальный счетчик
+ i--;//уменьшение счетчика
+ if (i < 0) location.href = "javascript:window.open('','_self').close();";//редирект
+}
+time();
+setInterval(time, 1000);
+</script>
+
 <script>
 window.WMP={};
 
